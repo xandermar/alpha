@@ -37,4 +37,10 @@ done
 
 echo "Implement all components"
 
+echo "Implement secondary view"
+# find all directories in docs/ and copy views/secondary.html to each directory
+items=($(ls -d docs/*/ | xargs -n 1 basename))
+for item in "${items[@]}"; do
+  cp views/secondary.html "docs/$item/index.html"
+done
 
