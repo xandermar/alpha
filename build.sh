@@ -1,5 +1,8 @@
 # filename: build.sh
 
+echo "Install dependencies"
+sudo apt-get install -y jq sass
+
 echo "Remove everything in DOCS"
 rm -rf docs/* &&
 
