@@ -1,42 +1,42 @@
 [
   {
-    "path": "article/sample-article-1.html",
+    "path": "articles/sample-article-1.html",
     "html": "<h2>Sample Article 1</h2><p>This is a test for article 1.</p>"
   },
   {
-    "path": "article/sample-article-2.html",
+    "path": "articles/sample-article-2.html",
     "html": "<h2>Sample Article 2</h2><p>This is a test for article 2.</p>"
   },
   {
-    "path": "article/sample-article-3.html",
+    "path": "articles/sample-article-3.html",
     "html": "<h2>Sample Article 3</h2><p>This is a test for article 3.</p>"
   },
   {
-    "path": "article/sample-article-4.html",
+    "path": "articles/sample-article-4.html",
     "html": "<h2>Sample Article 4</h2><p>This is a test for article 4.</p>"
   },
   {
-    "path": "article/sample-article-5.html",
+    "path": "articles/sample-article-5.html",
     "html": "<h2>Sample Article 5</h2><p>This is a test for article 5.</p>"
   },
   {
-    "path": "article/sample-article-6.html",
+    "path": "articles/sample-article-6.html",
     "html": "<h2>Sample Article 6</h2><p>This is a test for article 6.</p>"
   },
   {
-    "path": "article/sample-article-7.html",
+    "path": "articles/sample-article-7.html",
     "html": "<h2>Sample Article 7</h2><p>This is a test for article 7.</p>"
   },
   {
-    "path": "article/sample-article-8.html",
+    "path": "articles/sample-article-8.html",
     "html": "<h2>Sample Article 8</h2><p>This is a test for article 8.</p>"
   },
   {
-    "path": "article/sample-article-9.html",
+    "path": "articles/sample-article-9.html",
     "html": "<h2>Sample Article 9</h2><p>This is a test for article 9.</p>"
   },
   {
-    "path": "article/sample-article-10.html",
+    "path": "articles/sample-article-10.html",
     "html": "<h2>Sample Article 10</h2><p>This is a test for article 10.</p>"
   }
 ]
