@@ -17,6 +17,9 @@ fi
 echo "Remove everything in DOCS"
 rm -rf docs/* &&
 
+echo "Copy CNAME to DOCS"
+cp CNAME docs/
+
 echo "Copy views to docs/"
 cp views/primary.html docs/index.html &&
 
