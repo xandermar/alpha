@@ -20,3 +20,17 @@ jobs:
         run: |
           # Copy the CSS file to the docs directory
           sass sass/main.scss docs/main.css        
+
+      - name: Deploy to GitHub
+        run: |
+          # Check if there are any changes
+          if [[ $(git status --porcelain) ]]; then
+            # If there are changes, add, commit, and push
+            git config --global user.name "GitHub Actions"
+            git config --global user.email "actions@github.com"
+            git add .
+            git commit -m "Generated HTML files"
+            git push
+          else
+            echo "No changes to commit."
+          fi
