@@ -27,7 +27,7 @@ echo "Implment menu in docs/index.html"
 # cat components/menu.sh to MENU
 MENU=$(cat components/menu.sh)
 # replace [menu] in docs/index.html with $MENU
-sed -i "s/\[menu\]/$MENU/g" docs/index.html
+sed -i "s|\[menu\]|$MENU|g" docs/index.html
 
 echo "Build dynamic content"
 curl -o content.json https://raw.githubusercontent.com/xandermar/alpha/refs/heads/main/content.json
