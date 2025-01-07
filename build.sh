@@ -24,7 +24,7 @@ echo "Copy views to docs/"
 cp views/primary.html docs/index.html &&
 
 echo "Build dynamic content"
-curl -o content.json https://raw.githubusercontent.com/xandermar/action-build/refs/heads/main/content.json
+curl -o content.json https://raw.githubusercontent.com/xandermar/alpha/refs/heads/main/content.json
 # Read the content.json and create HTML files
 cat content.json | jq -c '.[]' | while read entity; do
   path=$(echo "$entity" | jq -r '.path')
