@@ -1,7 +1,18 @@
 # filename: build.sh
 
 echo "Install dependencies"
-sudo apt-get install -y jq sass
+# Check if the operating system is Ubuntu
+if [ -f /etc/os-release ]; then
+    . /etc/os-release
+    if [[ "$ID" == "ubuntu" ]]; then
+        echo "This is Ubuntu!"
+        sudo apt-get install -y jq sass
+    else
+        echo "This is not Ubuntu. It's $ID."
+    fi
+else
+    echo "Cannot determine the operating system."
+fi
 
 echo "Remove everything in DOCS"
 rm -rf docs/* &&
