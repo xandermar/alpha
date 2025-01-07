@@ -25,7 +25,7 @@ cp views/primary.html docs/index.html &&
 
 echo "Implment menu in docs/index.html"
 # cat components/menu.sh to MENU
-MENU=$(cat components/menu.sh | sed 's/[^a-zA-Z0-9 ]/<!-- & -->/g')
+MENU=$(./components/menu.sh)
 # replace {menu} in docs/index.html with $MENU
 sed -i "s/{menu}/$MENU/g" docs/index.html
 
