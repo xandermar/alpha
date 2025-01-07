@@ -24,8 +24,14 @@ echo "Copy views to docs/"
 cp views/primary.html docs/index.html &&
 
 echo "Implment menu in docs/index.html"
-# cat components/menu.sh to MENU
-MENU=$(./components/menu.sh)
+# list all directories in DOCS to array
+items=($(ls -d docs/*/ | xargs -n 1 basename))
+
+# loop through the array
+MENU=""
+for item in "${items[@]}"; do
+  $MENU += "<a href=\"/$item\">$item</a>"
+done
 # replace {menu} in docs/index.html with $MENU
 sed -i "s/{menu}/$MENU/g" docs/index.html
 
