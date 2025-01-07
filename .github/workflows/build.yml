@@ -15,3 +15,8 @@ jobs:
         
       - name: Run BUILD
         run: chmod +x ./build.sh && ./build.sh
+
+      - name: Build CSS
+        run: |
+          # Copy the CSS file to the docs directory
+          sass sass/main.scss docs/main.css        
