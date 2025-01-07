@@ -37,8 +37,8 @@ done
 
 echo "Implement all components"
 
-echo "Implement SASS"
-sass sass/main.css docs/main.css
+# echo "Implement SASS"
+# sass sass/main.css docs/main.css
 
 echo "Deploy to GitHub"
 # Check if there are any changes
