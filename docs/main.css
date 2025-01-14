@@ -1,24 +1,19 @@
 img.usflag-icon {
-  width: 1.3rem;
-}
+  width: 1.3rem; }
 
 .intro-block-main {
   background: black;
-  color: white;
-}
+  color: white; }
 
 footer {
   background: #666666;
   padding: 1rem;
-  color: #fff;
-}
-footer a {
-  color: #fff;
-}
+  color: #fff; }
+  footer a {
+    color: #fff; }
 
 .container.signature {
   color: #666666;
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 /*# sourceMappingURL=main.css.map */
