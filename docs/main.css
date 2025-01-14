@@ -7,4 +7,13 @@ img.usflag-icon {
   color: white;
 }
 
+footer {
+  background: #666666;
+  padding: 1rem;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
