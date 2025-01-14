@@ -56,3 +56,5 @@ for item in "${items[@]}"; do
   cp views/secondary.html "docs/$item/index.html"
 done
 
+# Copy the CSS file to the docs directory
+sass sass/main.scss docs/main.css

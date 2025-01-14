@@ -1,0 +1,4 @@
+name: alpha
+recipe: lamp
+config:
+  webroot: docs
